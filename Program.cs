@@ -2,9 +2,11 @@
 using static System.Console;
 Clear();
 
+int contador = 0;
 bool repeat = true;
 while (repeat)
 {
+    contador++;
     //1. Crear el carto de bingo de 3 filas y 9 columnas (Matriz[3,9]
     string[,] carton = new string[3, 9];
     Random num = new Random();
@@ -373,7 +375,7 @@ while (repeat)
 
 
     //Imprimir caton
-    WriteLine("Carton 1:");
+    WriteLine($"Carton {contador}:");
     for (int j = 0; j < 3; j++)
     {
         for (int i = 0; i < 9; i++)
@@ -386,11 +388,12 @@ while (repeat)
         WriteLine();
     }
 
-    WriteLine("Deseas imprimir otro carton? (S/N)");
-    string answer = ReadLine().ToLower();
+
     bool loop2 = true;
     while (loop2)
     {
+        WriteLine("Deseas imprimir otro carton? (S/N)");
+        string answer = ReadLine().ToLower();
 
         if (answer == "s")
         {
@@ -405,6 +408,7 @@ while (repeat)
         }
         else
         {
+            WriteLine("Opcion Invalida");
             loop2 = true;
         }
     }
