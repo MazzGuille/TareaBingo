@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TareaBingo", "TareaBingo.csproj", "{CC4FA97C-3CB0-4A44-8837-04AFCE95812B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC4FA97C-3CB0-4A44-8837-04AFCE95812B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4FA97C-3CB0-4A44-8837-04AFCE95812B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4FA97C-3CB0-4A44-8837-04AFCE95812B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4FA97C-3CB0-4A44-8837-04AFCE95812B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70DDBF08-C6CE-44C1-BE80-7C5561B99040}
+	EndGlobalSection
+EndGlobal
